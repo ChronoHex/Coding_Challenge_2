@@ -8,3 +8,14 @@ console.log(products);    // Print the array of products
 products.pop();    // Remove the last product from the array
 
 console.log("Updated products:",products);    // Print the array of products
+
+// Task 2: Accessing and Modifying Arrays //
+let scores = [100, 90, 85, 95, 65];    // Array of scores
+scores[1] = 95;    // Modify the second element of the array
+
+let total = scores.reduce((a, b) => a + b, 0);    // Calculate the total of the scores
+let average = total / scores.length;    // Calculate the average of the scores
+
+console.log("Updated Scores:", scores);    // Print the updated array of scores
+console.log(total);    // Print the sum of the scores
+console.log("Average Score:",average);    // Print the average of the scores')
