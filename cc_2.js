@@ -19,3 +19,18 @@ let average = total / scores.length;    // Calculate the average of the scores
 console.log("Updated Scores:", scores);    // Print the updated array of scores
 console.log(total);    // Print the sum of the scores
 console.log("Average Score:",average);    // Print the average of the scores')
+
+// Task 3: Working with Objects //
+let employee = {
+    name: "Tyrone Biggums",
+    age: 25,
+    department: "HR",
+    isActive: true
+};    // Object of employee
+
+console.log(employee);    // Print the object of employee
+
+employee.department = "Customer Service";    // Modify the department of the employee
+employee.position = "Manager";    // Add a new property to the employee
+
+console.log(employee);    // Print the object of employee
